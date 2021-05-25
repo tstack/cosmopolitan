@@ -470,7 +470,7 @@ HIDDEN(ape_ram_align = PAGESIZE);
 HIDDEN(ape_ram_rva = RVA(ape_ram_vaddr));
 
 HIDDEN(ape_stack_offset = ape_ram_offset + ape_ram_filesz);
-HIDDEN(ape_stack_vaddr = 0x700000000000 - STACKSIZE);
+HIDDEN(ape_stack_vaddr = 0x7000000000 - STACKSIZE);
 HIDDEN(ape_stack_paddr = ape_ram_paddr + ape_ram_filesz);
 HIDDEN(ape_stack_filesz = 0);
 HIDDEN(ape_stack_memsz = STACKSIZE);

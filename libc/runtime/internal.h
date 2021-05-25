@@ -6,7 +6,7 @@
 #include "libc/runtime/ezmap.internal.h"
 #include "libc/runtime/runtime.h"
 
-#define STACK_CEIL 0x700000000000ul
+#define STACK_CEIL 0x7000000000ul
 #define STACK_SIZE FRAMESIZE
 
 #if !(__ASSEMBLER__ + __LINKER__ + 0)
